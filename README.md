@@ -8,11 +8,14 @@ This program is a simple contract written in Solidity, a programming language us
 # Public variables
 The code starts with assigning the name and abbreviation of the token using a string variable. The  name is token name is  'actor' and abbreviation as 'act'. Public variables in Solidity are a way to declare state variables that are accessible to anyone. They provide transparency and allow anyone to read the value of that variable directly from the blockchain.
 # Mapping variable
-The mapping of the variable is conducted in the second part of the program. This simply means that if the address is given by any user it should display back the balance amount of tokens.
+The mapping of the variable is conducted in the second part of the program. This simply means that if the address is given by any user it should display back the balance amount of tokens.Mappings are commonly used in Solidity for various purposes, including:
+1.Storing user account balances in token contracts.
+2.Maintaining records of ownership in non-fungible token (NFT) contracts.
+3.Storing data associated with unique identifiers or addresses.
 # Mint function
-The mint function in is used to add or generate more tokens to the total supply of that token.
+The mint function in is used to add or generate more tokens to the total supply of that token. The minting process involves generating and adding new tokens to the total supply of a cryptocurrency.
 # Burn function
-The burn function is used to burn or destroy the tokens from the total supply. Also, an 'if statement' is provided in order to avoid burning tokens more than the total supply. 
+The burn function is used to burn or destroy the tokens from the total supply. Also, an 'if statement' is provided in order to avoid burning tokens more than the total supply. This process is often used to reduce the total supply of a cryptocurrency or token, and it can serve various purposes, including token buybacks, deflationary mechanisms, or reducing supply after a certain event.
 
 ## Getting Started
 
