@@ -76,7 +76,7 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can see the contract in the deployed contract section. Now copy the address from account and paste it in the address box in the mint function and put a value in the value box. Then transact it, now you can see the value in the total supply has been changed. We can do the same for the burn function.
 # Author
-Ajmal Sheriff
+Ajmal Shereef
 
 
 ## License
